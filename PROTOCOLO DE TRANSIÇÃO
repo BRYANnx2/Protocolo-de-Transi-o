@@ -38,7 +38,7 @@
   .wrap{max-width:var(--max); margin:0 auto; padding:0 24px;}
   section{padding:76px 0;}
   .rule{border:none; border-top:1px solid var(--line); margin:0;}
-
+ 
   /* header */
   .topbar{
     padding:22px 0;
@@ -55,7 +55,7 @@
     color:var(--muted);
     font-variant-numeric: tabular-nums;
   }
-
+ 
   /* hero */
   .hero{padding-top:64px; padding-bottom:56px;}
   .stamp{
@@ -98,7 +98,7 @@
     color:var(--muted);
     margin-top:14px;
   }
-
+ 
   /* dor */
   .dor{
     background:var(--ink);
@@ -115,7 +115,7 @@
     color:#CFCABB;
     font-size:1.05rem;
   }
-
+ 
   /* etapas */
   .etapas{background:var(--paper-2);}
   .etapas > .wrap > h2{
@@ -146,7 +146,7 @@
     margin-bottom:6px;
   }
   .etapa p{color:#3D3F38; font-size:0.98rem;}
-
+ 
   /* prova social */
   .prova blockquote{
     font-family:'Fraunces', serif;
@@ -161,7 +161,7 @@
     font-size:0.9rem;
     color:var(--muted);
   }
-
+ 
   /* faq */
   .faq{background:var(--paper-2);}
   .faq h2{font-size:1.7rem; margin-bottom:36px;}
@@ -193,7 +193,7 @@
     font-size:0.98rem;
   }
   .qa.open .a{max-height:220px; padding-bottom:20px;}
-
+ 
   /* cta final */
   .final{
     background:var(--ink);
@@ -216,14 +216,14 @@
     border-left:2px solid var(--gold);
     padding-left:12px;
   }
-
+ 
   footer{
     padding:30px 0;
     font-size:0.8rem;
     color:var(--muted);
     text-align:center;
   }
-
+ 
   @media (max-width:600px){
     section{padding:52px 0;}
     .hero h1{font-size:2rem;}
@@ -234,14 +234,14 @@
 </style>
 </head>
 <body>
-
+ 
   <div class="topbar">
     <div class="wrap">
       <div class="brand">Protocolo de Transição</div>
       <div class="doc-tag">Documento 001 — Reposicionamento de Carreira</div>
     </div>
   </div>
-
+ 
   <section class="hero">
     <div class="wrap">
       <span class="stamp">MÉTODO VALIDADO</span>
@@ -251,19 +251,19 @@
       <div class="cta-note">Acesso imediato · PDF + templates editáveis · Garantia de 7 dias</div>
     </div>
   </section>
-
+ 
   <section class="dor">
     <div class="wrap">
       <h2>Você já mandou currículo pra área nova e sentiu que ele simplesmente não conversa com a vaga?</h2>
       <p>Reescreveu o LinkedIn três vezes e continua sem resposta. O problema não é a sua trajetória — é que ninguém te ensinou a traduzir ela para quem está do outro lado, decidindo se te chama ou não.</p>
     </div>
   </section>
-
+ 
   <section class="etapas">
     <div class="wrap">
       <h2>O que está dentro do Protocolo</h2>
       <p class="lead">Quatro etapas, na ordem em que você precisa aplicar — sem enrolação, sem teoria solta.</p>
-
+ 
       <div class="etapa">
         <div class="num">01</div>
         <div>
@@ -294,18 +294,18 @@
       </div>
     </div>
   </section>
-
+ 
   <section class="prova">
     <div class="wrap">
       <blockquote>"Eu mesmo vivi essa transição — saí do varejo para o marketing digital sem diploma ou experiência formal na área. O método que uso hoje é o mesmo que virou o Protocolo de Transição."</blockquote>
       <div class="attr">— criador do Protocolo de Transição</div>
     </div>
   </section>
-
+ 
   <section class="faq">
     <div class="wrap">
       <h2>Perguntas antes de começar</h2>
-
+ 
       <div class="qa">
         <button onclick="toggleQA(this)">
           <span>Não tenho nenhuma experiência na área nova. Funciona pra mim?</span>
@@ -313,7 +313,7 @@
         </button>
         <div class="a"><p>É exatamente para isso que o Protocolo existe: mostrar que sua experiência atual carrega mais valor para a área nova do que você imagina — o mapeamento de skills transferíveis é a primeira etapa, feita antes de qualquer coisa.</p></div>
       </div>
-
+ 
       <div class="qa">
         <button onclick="toggleQA(this)">
           <span>Já tentei outros guias de currículo e não deu certo. Por que esse seria diferente?</span>
@@ -321,7 +321,7 @@
         </button>
         <div class="a"><p>A maioria dos guias ensina formatação. O Protocolo ensina a traduzir experiência de uma área para outra, que é o que realmente trava quem está em transição — isso não é conteúdo comum de "como fazer currículo".</p></div>
       </div>
-
+ 
       <div class="qa">
         <button onclick="toggleQA(this)">
           <span>Não tenho tempo. Preciso estudar algo longo?</span>
@@ -329,7 +329,7 @@
         </button>
         <div class="a"><p>Não. É material pronto para copiar e adaptar — templates, checklist e scripts. A ideia é você aplicar no mesmo dia, não passar semanas estudando.</p></div>
       </div>
-
+ 
       <div class="qa">
         <button onclick="toggleQA(this)">
           <span>E se eu comprar e não fizer sentido pra mim?</span>
@@ -339,7 +339,7 @@
       </div>
     </div>
   </section>
-
+ 
   <section class="final" id="comprar">
     <div class="wrap">
       <h2>Sua próxima entrevista pode começar por aqui</h2>
@@ -348,11 +348,11 @@
       <div class="urgencia">Preço de lançamento por tempo limitado. O valor sobe assim que as primeiras vagas de acesso se encerrarem.</div>
     </div>
   </section>
-
+ 
   <footer>
     Protocolo de Transição — todos os direitos reservados.
   </footer>
-
+ 
   <script>
     function toggleQA(btn){
       const qa = btn.parentElement;
